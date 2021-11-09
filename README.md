@@ -23,6 +23,9 @@ TPM was introduced in an attempt to facilitate comparisons across samples. TPM s
 
 3) Describe the basics steps you would need to perform an RNAseq differential expression analysis starting from raw data with treated and control groups.
 
+
+
+
 Part1: Raw sequence processing 1: Quality Control – Run QC on the FastQ file from the sequencer 2: Trimming - Turn the raw fastQ file into a trimmed fastQ file containingonly good quality data 3: Mapping – Take the data in the trimmed fastQ file and map it to areference genome to create a BAM file of mapped positions Part 2: Visualisation, Exploration and Differential Expression 4: Visualisation and Quantitation in treated and control groups. 5: Differential Expression analysis with DESeq2 in treated and control groups. 6: Reviewing DESeq2 results in treated and control groups.
 
 4) Give a brief description of what a biomarker is.
@@ -32,3 +35,6 @@ Biomarker: A biological molecule found in blood, other body fluids, or tissues t
 5) Give a brief description of what an IC50 value measures.
 
 IC50 value of the drug indicates the toxicity of the drug to other disease causing organisms. IC50 is a quantitative measure that shows how much a particular inhibitory drug/substance/extract/fraction is needed to inhibit a biological component by 50%.
+
+
+![image](https://user-images.githubusercontent.com/55751454/140956931-6525f20c-a50b-4233-93f8-9fecf9fca7b5.png)
