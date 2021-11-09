@@ -16,3 +16,7 @@ RNA-sequencing is a sequencing technique which uses next-generation sequencing (
 analyzing the continuously changing cellular transcriptome. 
 Specifically, RNA-Seq facilitates the ability to look at alternative gene spliced transcripts, post-transcriptional modifications, gene fusion, mutations/SNPs and changes in gene expression over time, 
 or differences in gene expression in different groups or treatments.
+
+2) Explain what are the differences between the TPM and RPKM normalization methods.
+
+TPM was introduced in an attempt to facilitate comparisons across samples. TPM stands for transcript per million, and the sum of all TPM values is the same in all samples, such that a TPM value represents a relative expression level that, in principle, should be comparable between samples. The measure RPKM (reads per kilobase of exon per million reads mapped) was devised as a within-sample normalization method; as such, it is suitable to compare gene expression levels within a single sample, rescaled to correct for both library size and gene length. The only difference is that you normalize for gene length first, and then normalize for sequencing depth second. However, the effects of this difference are quite profound. When you use TPM, the sum of all TPMs in each sample are the same. This makes it easier to compare the proportion of reads that mapped to a gene in each sample. In contrast, with RPKM , the sum of the normalized reads in each sample may be different, and this makes it harder to compare samples directly.
