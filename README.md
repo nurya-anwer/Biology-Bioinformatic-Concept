@@ -20,3 +20,15 @@ or differences in gene expression in different groups or treatments.
 2) Explain what are the differences between the TPM and RPKM normalization methods.
 
 TPM was introduced in an attempt to facilitate comparisons across samples. TPM stands for transcript per million, and the sum of all TPM values is the same in all samples, such that a TPM value represents a relative expression level that, in principle, should be comparable between samples. The measure RPKM (reads per kilobase of exon per million reads mapped) was devised as a within-sample normalization method; as such, it is suitable to compare gene expression levels within a single sample, rescaled to correct for both library size and gene length. The only difference is that you normalize for gene length first, and then normalize for sequencing depth second. However, the effects of this difference are quite profound. When you use TPM, the sum of all TPMs in each sample are the same. This makes it easier to compare the proportion of reads that mapped to a gene in each sample. In contrast, with RPKM , the sum of the normalized reads in each sample may be different, and this makes it harder to compare samples directly.
+
+3) Describe the basics steps you would need to perform an RNAseq differential expression analysis starting from raw data with treated and control groups.
+
+Part1: Raw sequence processing 1: Quality Control – Run QC on the FastQ file from the sequencer 2: Trimming - Turn the raw fastQ file into a trimmed fastQ file containingonly good quality data 3: Mapping – Take the data in the trimmed fastQ file and map it to areference genome to create a BAM file of mapped positions Part 2: Visualisation, Exploration and Differential Expression 4: Visualisation and Quantitation in treated and control groups. 5: Differential Expression analysis with DESeq2 in treated and control groups. 6: Reviewing DESeq2 results in treated and control groups.
+
+4) Give a brief description of what a biomarker is.
+
+Biomarker: A biological molecule found in blood, other body fluids, or tissues that is a sign of a normal or abnormal process, or of a condition or disease. A biomarker may be used to see how well the body responds to a treatment for a disease or condition. Also called molecular marker and signature molecule.
+
+5) Give a brief description of what an IC50 value measures.
+
+IC50 value of the drug indicates the toxicity of the drug to other disease causing organisms. IC50 is a quantitative measure that shows how much a particular inhibitory drug/substance/extract/fraction is needed to inhibit a biological component by 50%.
