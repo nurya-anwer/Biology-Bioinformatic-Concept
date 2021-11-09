@@ -37,4 +37,9 @@ Biomarker: A biological molecule found in blood, other body fluids, or tissues t
 IC50 value of the drug indicates the toxicity of the drug to other disease causing organisms. IC50 is a quantitative measure that shows how much a particular inhibitory drug/substance/extract/fraction is needed to inhibit a biological component by 50%.
 
 
+Translational bioinformatics is an emerging field that addresses the current challenges of integrating increasingly voluminous amounts of molecular and clinical data.  
+Its aim is to provide a better understanding of the molecular basis of disease, which in turn will inform clinical practice and ultimately improve human health.
+
+![image](https://user-images.githubusercontent.com/55751454/140979695-28f921b7-e4cf-40f7-b049-cced4d0e9323.png)
+
 ![image](https://user-images.githubusercontent.com/55751454/140956931-6525f20c-a50b-4233-93f8-9fecf9fca7b5.png)
